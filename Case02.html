@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS - Case02</title>
+
+    <link rel="stylesheet" href="/lib/normalize.css">
+    <!--
+        <link rel="stylesheet" href="/Styles/style02.css">
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+
+    <style>
+        * {
+            font-family: "Roboto";
+            color: grey;
+            overflow-x: hidden;
+        }
+
+        header {
+            position: sticky;
+            font-size: 25px;
+            background-color: white;
+            top: 0;
+        }
+
+        nav {
+            display: block;
+            float: right;
+            padding: 40px;
+        }
+
+        nav a {
+            margin: 20px;
+            text-decoration: none;
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 450px;
+            left: 0;
+            bottom: 0;
+            position: absolute;
+            background-color: darkblue;
+            padding-top: 30px;
+        }
+
+        .sidenav a {
+            display: block;
+            font-size: 25px;
+            position: static;
+            margin-top: 30px;
+            margin-left: 30px;
+            text-decoration: none;
+        }
+
+        picture {
+            margin-left: 20%;
+            display: flex;
+        }
+
+        picture img {
+            border: 0.5px solid green;
+        }
+
+        section {
+            position: relative;
+        }
+
+        .main_content {
+            margin-left: 20%;
+        }
+
+        footer {
+            background-color: grey;
+            text-align: center;
+        }
+
+        footer>p {
+            color: white;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+<header>
+    <img src="Assets/ijse.png" alt="Logo of IJSE">
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contacts</a>
+        <a href="#">About Us</a>
+    </nav>
+</header>
+
+<!--<div class="sidenav">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contacts</a>
+    <a href="#">About Us</a>
+</div>-->
+
+<section>
+    <div class="sidenav">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contacts</a>
+        <a href="#">About Us</a>
+    </div>
+    <picture class="main_content">
+        <img src="/Assets/MonkeySwingingLoader.gif" title="gif" alt="Monkey Swinging Gif">
+        <img src="/Assets/MonkeySwingingLoader.gif" title="gif" alt="Monkey Swinging Gif">
+        <img src="/Assets/MonkeySwingingLoader.gif" title="gif" alt="Monkey Swinging Gif">
+    </picture>
+    <div class="main_content">
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi facere maxime nisi nostrum porro ut? Alias ducimus in, iste molestiae perspiciatis sint totam voluptates. Eum ipsum officia quo quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aperiam atque autem, cumque deleniti eum eveniet magnam maiores minima, obcaecati officiis recusandae repellat repudiandae sit veritatis vitae! Blanditiis, porro!</p>
+    </div>
+</section>
+
+<footer>
+    <p>Developed By IJSE</p>
+</footer>
+
+</body>
+</html>

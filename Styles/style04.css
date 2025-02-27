@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    font-family: "Roboto",monospace;
+    padding: 10px 10px 10px 15px;
+}
+
+section {
+    margin-left: 0;
+    margin-top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+div {
+    position: sticky;
+    background-color: red;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 55px;
+}
+
+p {
+    font-family: 'Roboto' ,monospace;
+    font-weight: bold;
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 40vh;
+}
+
+#card2 {
+    background-color: steelblue;
+}
+
+#card2_color {
+    background-color: midnightblue;
+}
+
+#card3 {
+    background-color: dimgray;
+}
+
+#card3_color {
+    background-color: #1d1c1c;
+}
+
+#card4 {
+    background-color: indianred;
+}
+
+#card4_color {
+    background-color: maroon;
+}

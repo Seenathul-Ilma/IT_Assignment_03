@@ -45,11 +45,22 @@ p {
 .circle {
     width: 265px;
     height: 265px;
-    background-color: darkblue;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
     border-radius: 50%;
+}
+
+#circle1 {
+    background: blueviolet;
+}
+
+#circle2 {
+    background: dodgerblue;
+}
+
+#circle3 {
+    background: indianred;
 }

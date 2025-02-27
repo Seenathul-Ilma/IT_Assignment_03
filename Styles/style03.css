@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: "Roboto";
+    padding-top: 120px;
+}
+
+.grey{
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+    border: 20px solid grey;
+}
+
+.red {
+    position: fixed;
+    width: 265px;
+    height: 265px;
+    border: 20px solid red;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.circle {
+    width: 265px;
+    height: 265px;
+    background-color: darkblue;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+}
